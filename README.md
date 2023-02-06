@@ -1,20 +1,30 @@
-# Fullstack-Yu-Gi-Oh-Application:
-Yu-gi-oh trading cards- A searchable interactive directory, which will let users check their decks.
-Dataset:
-Adapted from https://www.kaggle.com/datasets/tathor/yugioh-trading-cards-dataset. The data was collected via the ygoprodeck API. 
-This dataset contains data for 6534 different cards from the Yu-Gi-Oh! Trading Card Game. It contains the following columns: Name: The name of the card.
-Type: The card's type (i.e. Normal Monster, Effect Monster, Trap Card, etc.)
-Level: Summoning Level
-Race: The card's race (i.e. Warrior, Dragon, Spellcaster, etc.),
-Attribute: The card's attribute (i.e. Water, Fire, Wind, etc.)
-ATK: The card's attack points
-DEF: The card's defence points
 
-Functionality:
-The following operations will be provided to all users: 
-• View the cards decks in ai simple to navigate and understand interface, with links to the next and previous pages 
-• Click on an cards to view detailed information about that particular card, (attack, defence etc.._)  and its rating.
-Additionally, the following operations will be provided for authenticated logged-in users 
-• Add a new deck
- • Edit an existingdeck previously provided by the logged-in user
- • Delete an existing review previously provided by the logged-in user
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+
+## Run Setup
+
+Run `npm install` for install required package
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
